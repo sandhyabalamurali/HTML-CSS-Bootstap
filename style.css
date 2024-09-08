@@ -1,0 +1,48 @@
+/* Custom CSS styles */
+.hero {
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.about h2, .projects h2, .testimonials h2, .services h2, .latest-news h2, .team h2, .contact-us h2 {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    background-image: url('testimonials-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.team img {
+    width: 150px;
+    height: 150px;
+}
+
+.contact-us {
+    background-color: #f9f9f9;
+}
+
+footer {
+    margin-top: 50px;
+}
+.icons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top:20px;
+
+}
+.icons i{
+    font-size: 20px;
+    padding: 12px;
+}
